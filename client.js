@@ -6,6 +6,10 @@ const connect = function () {
 		host: "10.0.2.15", // IP address here,
 		port: 50541, // PORT number here,
 	});
+	conn.on("connect", () => {
+		console.log("Successfully connected to game server");
+		conn.write("Name: NM");
+	});
 	conn.on("data", (data) => {
 		console.log("This is the data: ", data);
 	});
