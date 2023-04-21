@@ -9,27 +9,6 @@ const connect = function () {
 	conn.on("connect", () => {
 		console.log("Successfully connected to game server");
 		conn.write("Name: NM");
-		// 	setInterval(() => {
-		// 		conn.write("Move: up");
-		// 	}, 3000);
-		// 	setInterval(() => {
-		// 		conn.write("Move: right");
-		// 	}, 4000);
-		// 	setInterval(() => {
-		// 		conn.write("Move: right");
-		// 	}, 5000);
-		// 	setInterval(() => {
-		// 		conn.write("Move: right");
-		// 	}, 6000);
-		// 	setInterval(() => {
-		// 		conn.write("Move: right");
-		// 	}, 7000);
-		// 	setInterval(() => {
-		// 		conn.write("Move: down");
-		// 	}, 8000);
-		// 	setInterval(() => {
-		// 		conn.write("Move: left");
-		// 	}, 9000);
 	});
 	conn.on("data", (data) => {
 		console.log("This is the data: ", data);
