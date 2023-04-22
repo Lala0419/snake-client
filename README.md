@@ -13,7 +13,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-<img src="https://github.com/Lala0419/snake-client/blob/master/assets/snake-client.gif" />
+<img src="https://github.com/Lala0419/snake-client/blob/master/assets/snake-client(2).gif" />
 
 
 ## Getting Started
