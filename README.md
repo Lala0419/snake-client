@@ -8,6 +8,9 @@ Before you can run this client, you will need to be running the server side whic
 
 **Link to the server side:** [snek-multiplayer](https://github.com/lighthouse-labs/snek-multiplayer)
 
+<img src="https://github.com/Lala0419/snake-client/blob/master/assets/description(2).png" />
+<img src="https://github.com/Lala0419/snake-client/blob/master/assets/description(1).png" />
+
 ## Final Product
 
 <img src="https://github.com/Lala0419/snake-client/blob/master/snake-client.gif" />
